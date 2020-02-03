@@ -123,4 +123,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitstobreak: 1
   numhits: 0
+  orangepower: {fileID: 7143521380263178480, guid: 1046b02470f7e6e4f8a2439c8691158f,
+    type: 3}
+  bluepower: {fileID: 3217999852261716371, guid: a1a9b0f26904c984a8ddbdb10778111a,
+    type: 3}
+  aquapower: {fileID: 3313444564986287830, guid: 7dbafdd419b14ab4db723f21e43b2685,
+    type: 3}
+  pinkpower: {fileID: 26785602543859929, guid: f5b00de56f6f36b4d8fde6c987b33d3f, type: 3}
+  greypower: {fileID: 3206879201314453882, guid: 47a29fa26e167394095a58c1c68297ea,
+    type: 3}
+  redpower: {fileID: 6442013748476831473, guid: 7a031925965e9174fa6f8ae059235957,
+    type: 3}
+  greenpower: {fileID: 4461283380856731473, guid: 6aa7599b25d15c04989b4d53035a7ba2,
+    type: 3}
+  poweruptospawn: 0
+  powerupchance: 0
   points: 20

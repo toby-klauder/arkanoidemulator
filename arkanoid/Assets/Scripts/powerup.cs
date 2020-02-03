@@ -20,7 +20,7 @@ public class powerup : MonoBehaviour
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        gamemanager.totalpoints += 1000; 
         OriginalBall = GameObject.FindObjectOfType<ball>().gameObject;
         GameObject ballone = Instantiate(ball, OriginalBall.transform.position, Quaternion.identity);
         GameObject balltwo = Instantiate(ball, OriginalBall.transform.position, Quaternion.identity);
