@@ -14,6 +14,7 @@ TagManager:
   - bluepower
   - aquapower
   - greenpower
+  - destroyobj
   layers:
   - Default
   - TransparentFX

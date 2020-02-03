@@ -136,6 +136,7 @@ MonoBehaviour:
     type: 3}
   greenpower: {fileID: 4461283380856731473, guid: 6aa7599b25d15c04989b4d53035a7ba2,
     type: 3}
+  thisbrick: {fileID: 8047781003962633598}
   poweruptospawn: 0
   powerupchance: 0
   points: 20

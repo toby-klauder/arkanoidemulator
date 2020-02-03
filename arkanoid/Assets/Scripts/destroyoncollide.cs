@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; 
+using UnityEngine.UI;
 public class destroyoncollide : MonoBehaviour
 {
-    public int hitstobreak; 
+    public int hitstobreak;
     public int numhits;
     public GameObject orangepower;
     public GameObject bluepower;
@@ -13,56 +13,64 @@ public class destroyoncollide : MonoBehaviour
     public GameObject greypower;
     public GameObject redpower;
     public GameObject greenpower;
-    public GameObject thisbrick; 
+    public GameObject thisbrick;
     public int poweruptospawn;
-    public int powerupchance; 
+    public int powerupchance;
     public int points;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        poweruptospawn = Random.Range(1, 7); 
-        
+        poweruptospawn = Random.Range(1, 7);
+        powerupchance = Random.Range(1, 10); 
+
     }
 
-    void OnCollisionEnter2D(Collision2D collision) {
-        numhits++; 
-        if (collision.gameObject.tag == "ball" && numhits == hitstobreak) {
-            print("test");
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        numhits++;
+        if (collision.gameObject.tag == "ball" && numhits == hitstobreak)
+        {
+            
             gamemanager.totalpoints += points;
-            if (poweruptospawn == 1)
+            if (powerupchance == 1)
             {
-                Instantiate(orangepower);
+                if (poweruptospawn == 1)
+                {
+                    Instantiate(orangepower, thisbrick.transform.position, transform.rotation);
+                }
+                else if (poweruptospawn == 2)
+                {
+                    Instantiate(bluepower, thisbrick.transform.position, transform.rotation);
+                }
+                else if (poweruptospawn == 3)
+                {
+                    Instantiate(greypower, thisbrick.transform.position, transform.rotation);
+                }
+                else if (poweruptospawn == 4)
+                {
+                    Instantiate(aquapower, thisbrick.transform.position, transform.rotation);
+                }
+                else if (poweruptospawn == 5)
+                {
+                    Instantiate(pinkpower, thisbrick.transform.position, transform.rotation);
+                }
+                else if (poweruptospawn == 6)
+                {
+                    Instantiate(redpower, thisbrick.transform.position, transform.rotation);
+                }
+                else if (poweruptospawn == 7)
+                {
+                    Instantiate(greenpower, thisbrick.transform.position, transform.rotation);
+                }
+                
             }
-            else if (poweruptospawn == 2)
-            {
-                Instantiate(bluepower);
-            }
-            else if (poweruptospawn == 3)
-            {
-                Instantiate(greypower);
-            }
-            else if (poweruptospawn == 4)
-            {
-                Instantiate(aquapower);
-            }
-            else if (poweruptospawn == 5)
-            {
-                Instantiate(pinkpower);
-            }
-            else if (poweruptospawn == 6)
-            {
-                Instantiate(redpower);
-            }
-            else if (poweruptospawn == 7) {
-                Instantiate(greenpower); 
-            }
-            Destroy(gameObject); 
         }
+        Destroy(gameObject);
     }
 }
