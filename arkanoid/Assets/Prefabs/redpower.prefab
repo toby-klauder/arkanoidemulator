@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6442013748476831476}
   - component: {fileID: 6442013748476831475}
   - component: {fileID: 6442013748476831474}
+  - component: {fileID: 5492137231411113377}
+  - component: {fileID: 921532732895058647}
   m_Layer: 8
   m_Name: redpower
   m_TagString: redpower
@@ -130,3 +132,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &5492137231411113377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6442013748476831473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c15a1d958b7239944a9527837e463c89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &921532732895058647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6442013748476831473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a892fb6ab884c4bad8e52b533d24ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

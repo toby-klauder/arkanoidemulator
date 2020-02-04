@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 3313444564986287829}
   - component: {fileID: 3313444564986287828}
   - component: {fileID: 3313444564986287831}
-  - component: {fileID: -6335317308060694380}
+  - component: {fileID: 3439775701415921615}
+  - component: {fileID: -5327543568186179815}
   m_Layer: 8
   m_Name: aquapower
   m_TagString: aquapower
@@ -131,7 +132,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &-6335317308060694380
+--- !u!114 &3439775701415921615
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,3 +145,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 6363838017338691201, guid: 49bc36f9fc3ca6b4c92d05ef4b113390, type: 3}
+--- !u!114 &-5327543568186179815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3313444564986287830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c15a1d958b7239944a9527837e463c89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

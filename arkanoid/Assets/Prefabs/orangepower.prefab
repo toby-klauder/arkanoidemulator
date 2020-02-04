@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 7143521380263178483}
   - component: {fileID: 7143521380263178482}
   - component: {fileID: 7143521380263178481}
+  - component: {fileID: -5621321723558391814}
+  - component: {fileID: -2735264875381813045}
   m_Layer: 8
   m_Name: orangepower
   m_TagString: orangepower
@@ -130,3 +132,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &-5621321723558391814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7143521380263178480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c15a1d958b7239944a9527837e463c89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2735264875381813045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7143521380263178480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77252510ba2187f49aed24fc7d57e5ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

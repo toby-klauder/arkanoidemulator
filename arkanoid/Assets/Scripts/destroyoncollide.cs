@@ -14,31 +14,41 @@ public class destroyoncollide : MonoBehaviour
     public GameObject redpower;
     public GameObject greenpower;
     public GameObject thisbrick;
+    public GameObject[] balls;
     public int poweruptospawn;
     public int powerupchance;
     public int points;
+    public bool powerupsenabled; 
     // Start is called before the first frame update
     void Start()
     {
-
+        powerupsenabled = true; 
     }
 
     // Update is called once per frame
     void Update()
     {
+        GameObject[] balls = GameObject.FindGameObjectsWithTag("ball");
+        if (balls.Length > 1) {
+            powerupsenabled = false;
+            print("disabled powerups, number of balls found: " + balls.Length.ToString()); 
+        }
+        if (balls.Length == 1) {
+            powerupsenabled = true; 
+        }
         poweruptospawn = Random.Range(1, 7);
-        powerupchance = Random.Range(1, 10); 
+        powerupchance = 1;  
 
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
         numhits++;
-        if (collision.gameObject.tag == "ball" && numhits == hitstobreak)
+        if ((collision.gameObject.tag == "ball" || collision.gameObject.tag == "bullet") && numhits == hitstobreak)
         {
             
             gamemanager.totalpoints += points;
-            if (powerupchance == 1)
+            if (powerupchance == 1 && powerupsenabled)
             {
                 if (poweruptospawn == 1)
                 {

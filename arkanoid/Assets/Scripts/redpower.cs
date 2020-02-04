@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class greenpower : MonoBehaviour
+public class redpower : MonoBehaviour
 {
-    public static bool stuck;
+    public static bool enablefire; 
     // Start is called before the first frame update
     void Start()
     {
@@ -14,14 +14,15 @@ public class greenpower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        //change sprite/animation
         if (collision.gameObject.tag == "player")
         {
-            stuck = true;
+            enablefire = true;
         }
     }
 }

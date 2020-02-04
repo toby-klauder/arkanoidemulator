@@ -1,12 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; 
-public class gamemanager : MonoBehaviour
+
+public class greypower : MonoBehaviour
 {
-    public static int totalpoints;
-    public Text pointtext;
-    public static int lives = 2; 
     // Start is called before the first frame update
     void Start()
     {
@@ -16,8 +13,13 @@ public class gamemanager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        pointtext.text = totalpoints.ToString(); 
+        
     }
 
-
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "player") {
+            gamemanager.lives = gamemanager.lives + 1;
+        }
+    }
 }

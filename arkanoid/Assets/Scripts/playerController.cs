@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class playerController : MonoBehaviour
 {
+    public GameObject bullet; 
     public static int lives; 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,14 @@ public class playerController : MonoBehaviour
             this.transform.position = position; 
         }
     }
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && redpower.enablefire) {
+            GameObject bulletone = Instantiate(bullet, this.transform.position, transform.rotation);
+            bulletone.transform.eulerAngles = Vector3.forward * 90;
+            bulletone.GetComponent<Rigidbody2D>().velocity = new Vector3(0, 10, 0); 
+        }  
+    }
 
-  
+
 }

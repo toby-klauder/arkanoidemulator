@@ -15,6 +15,7 @@ TagManager:
   - aquapower
   - greenpower
   - destroyobj
+  - bullet
   layers:
   - Default
   - TransparentFX
@@ -27,8 +28,8 @@ TagManager:
   - powerup
   - brick
   - player
-  - 
-  - 
+  - projectile
+  - ball
   - 
   - 
   - 

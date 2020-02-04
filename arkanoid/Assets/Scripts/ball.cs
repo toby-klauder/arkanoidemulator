@@ -30,15 +30,16 @@ public class ball : MonoBehaviour
             rb.transform.position = offset + player.transform.position; 
         }
         rb.velocity = rb.velocity.normalized * speed;
-        if (Input.GetKey(KeyCode.X) && greenpower.stuck)
+        if (Input.GetKey(KeyCode.X) && greenpower.stuck && touchingplayer)
         {
+            touchingplayer = false;
             movewith = false; 
             Vector3 relativePoint = player.transform.InverseTransformPoint(rb.transform.position);
-            if (relativePoint.x < 0.0)
+            if (relativePoint.x > 0.0)
             {
                 rb.velocity = new Vector3(1, 1, 0);
             }
-            else if (relativePoint.x > 0.0)
+            else if (relativePoint.x < 0.0)
             {
 
                 rb.velocity = new Vector3(-1, 1, 0);
@@ -49,7 +50,8 @@ public class ball : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision) {
         if (collision.gameObject.tag == "player") {
-            touchingplayer = true; 
+            touchingplayer = true;
+            print(touchingplayer.ToString()); 
             if(greenpower.stuck)
             {
                 rb.velocity = Vector3.zero;
@@ -57,13 +59,17 @@ public class ball : MonoBehaviour
                 movewith = true; 
             }
         }
-    }
-
-    void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "player")
-        {
-            touchingplayer = false;
+        if (collision.gameObject.tag == "destroyobj") {
+            Destroy(gameObject);
+            GameObject[] balls = GameObject.FindGameObjectsWithTag("ball");
+            if (balls.Length == 0) {
+                gamemanager.lives--;
+            }
+        }
+        if (collision.gameObject.tag == "wall" || collision.gameObject.tag == "brick") {
+            speed += 0.1f; 
         }
     }
+
+ 
 }
