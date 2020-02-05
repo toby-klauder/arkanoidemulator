@@ -60,11 +60,12 @@ public class ball : MonoBehaviour
             }
         }
         if (collision.gameObject.tag == "destroyobj") {
-            Destroy(gameObject);
             GameObject[] balls = GameObject.FindGameObjectsWithTag("ball");
-            if (balls.Length == 0) {
+            if (balls.Length == 1)
+            {
                 gamemanager.lives--;
             }
+            Destroy(gameObject);
         }
         if (collision.gameObject.tag == "wall" || collision.gameObject.tag == "brick") {
             speed += 0.1f; 

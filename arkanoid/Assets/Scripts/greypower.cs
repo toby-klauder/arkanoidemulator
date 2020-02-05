@@ -19,6 +19,7 @@ public class greypower : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "player") {
+            print("test"); 
             gamemanager.lives = gamemanager.lives + 1;
         }
     }

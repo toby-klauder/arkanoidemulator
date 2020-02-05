@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6363838017338691207}
   - component: {fileID: 6363838017338691206}
   - component: {fileID: 6363838017338691226}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ball
   m_TagString: ball
   m_Icon: {fileID: 0}
@@ -133,4 +133,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81f7e405b5e76d54490769d604f200bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   rb: {fileID: 6363838017338691207}
+  touchingplayer: 0
+  offset: {x: 0, y: 0, z: 0}
+  movewith: 0

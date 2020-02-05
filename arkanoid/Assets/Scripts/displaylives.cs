@@ -5,11 +5,12 @@ using UnityEngine.UI;
 public class displaylives : MonoBehaviour
 {
     public GameObject image;
+    Image myImage; 
     public int displaythreshold; 
     // Start is called before the first frame update
     void Start()
     {
-        
+        myImage = image.GetComponent<Image>(); 
     }
 
     // Update is called once per frame
@@ -17,11 +18,10 @@ public class displaylives : MonoBehaviour
     {
         if (displaythreshold <= gamemanager.lives)
         {
-            print("test image set: " + gamemanager.lives.ToString()); 
-            image.SetActive(true);
+            myImage.enabled = true; 
         }
-        else {
-            image.SetActive(false); 
+        else if (displaythreshold > gamemanager.lives) {
+            myImage.enabled = false; 
         }
     }
 

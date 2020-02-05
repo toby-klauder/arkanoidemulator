@@ -17,12 +17,12 @@ public class playerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A) && transform.position.x > -6.5) {
             Vector3 position = this.transform.position;
-            position.x -= (float)0.1;
+            position.x -= (float)0.25;
             this.transform.position = position; 
         }
         if (Input.GetKey(KeyCode.D) && transform.position.x < 7) {
             Vector3 position = this.transform.position;
-            position.x += (float)0.1;
+            position.x += (float)0.25;
             this.transform.position = position; 
         }
     }
