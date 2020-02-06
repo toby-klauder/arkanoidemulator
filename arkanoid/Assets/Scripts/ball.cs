@@ -11,7 +11,8 @@ public class ball : MonoBehaviour
     int rand2;
     public bool touchingplayer;
     public Vector3 offset;
-    public bool movewith; 
+    public bool movewith;
+    public float time; 
 
     // Start is called before the first frame update
     void Start()
@@ -26,11 +27,12 @@ public class ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        time += Time.deltaTime;
         if (movewith) {
             rb.transform.position = offset + player.transform.position; 
         }
         rb.velocity = rb.velocity.normalized * speed;
-        if (Input.GetKey(KeyCode.X) && greenpower.stuck && touchingplayer)
+        if ((Input.GetKey(KeyCode.X) && greenpower.stuck && touchingplayer) || time > 10)
         {
             touchingplayer = false;
             movewith = false; 
@@ -51,9 +53,10 @@ public class ball : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision) {
         if (collision.gameObject.tag == "player") {
             touchingplayer = true;
-            print(touchingplayer.ToString()); 
             if(greenpower.stuck)
             {
+                time = 0;
+                print("enter collision"); 
                 rb.velocity = Vector3.zero;
                 offset = rb.transform.position - player.transform.position;
                 movewith = true; 
@@ -72,5 +75,7 @@ public class ball : MonoBehaviour
         }
     }
 
- 
+   
+
+
 }

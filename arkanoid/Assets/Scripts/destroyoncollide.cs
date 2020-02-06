@@ -56,7 +56,7 @@ public class destroyoncollide : MonoBehaviour
                 }
                 else if (poweruptospawn == 2)
                 {
-                    //Instantiate(bluepower, thisbrick.transform.position, transform.rotation);
+                    Instantiate(bluepower, thisbrick.transform.position, transform.rotation);
                 }
                 else if (poweruptospawn == 3)
                 {

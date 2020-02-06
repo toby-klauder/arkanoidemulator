@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class redpower : MonoBehaviour
 {
-    public static bool enablefire; 
+    public static bool enablefire = true; 
     // Start is called before the first frame update
     void Start()
     {

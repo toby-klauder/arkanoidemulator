@@ -30,8 +30,8 @@ public class playerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && redpower.enablefire) {
             GameObject bulletone = Instantiate(bullet, this.transform.position, transform.rotation);
-            bulletone.transform.eulerAngles = Vector3.forward * 90;
-            bulletone.GetComponent<Rigidbody2D>().velocity = new Vector3(0, 10, 0); 
+           // bulletone.transform.eulerAngles = Vector3.forward * 90;
+            bulletone.GetComponent<Rigidbody2D>().velocity = new Vector3(0, 20, 0); 
         }  
     }
 

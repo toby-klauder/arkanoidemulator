@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3217999852261716369}
   - component: {fileID: 3217999852261716368}
   - component: {fileID: -6162858170487296427}
+  - component: {fileID: 7059204076347973011}
   m_Layer: 8
   m_Name: bluepower
   m_TagString: bluepower
@@ -143,3 +144,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c15a1d958b7239944a9527837e463c89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7059204076347973011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3217999852261716371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4055df1b5d70a284794e8afa4c0a06d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  playerpicture: {fileID: 0}

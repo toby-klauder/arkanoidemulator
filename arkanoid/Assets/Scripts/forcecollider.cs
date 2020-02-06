@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class greypower : MonoBehaviour
+public class forcecollider : MonoBehaviour
 {
+    public GameObject player;
+    public GameObject playerpic; 
     // Start is called before the first frame update
     void Start()
     {
@@ -13,13 +15,6 @@ public class greypower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "player") {
-            gamemanager.lives = gamemanager.lives + 1;
-        }
+        playerpic.transform.position = player.transform.position; 
     }
 }
