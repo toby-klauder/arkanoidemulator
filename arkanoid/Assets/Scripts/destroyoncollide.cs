@@ -12,7 +12,7 @@ public class destroyoncollide : MonoBehaviour
     public GameObject pinkpower;
     public GameObject greypower;
     public GameObject redpower;
-    public GameObject greenpower;
+    public GameObject greenpowerpellet;
     public GameObject thisbrick;
     public GameObject[] balls;
     public int poweruptospawn;
@@ -31,6 +31,8 @@ public class destroyoncollide : MonoBehaviour
         GameObject[] balls = GameObject.FindGameObjectsWithTag("ball");
         if (balls.Length > 1) {
             powerupsenabled = false;
+            greenpower.stuck = false; 
+            bluepowerup.extended = false; 
             print("disabled powerups, number of balls found: " + balls.Length.ToString()); 
         }
         if (balls.Length == 1) {
@@ -76,7 +78,7 @@ public class destroyoncollide : MonoBehaviour
                 }
                 else if (poweruptospawn == 7)
                 {
-                    Instantiate(greenpower, thisbrick.transform.position, transform.rotation);
+                    Instantiate(greenpowerpellet, thisbrick.transform.position, transform.rotation);
                 }
                 
             }

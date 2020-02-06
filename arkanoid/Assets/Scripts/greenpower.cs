@@ -22,6 +22,7 @@ public class greenpower : MonoBehaviour
         if (collision.gameObject.tag == "player")
         {
             stuck = true;
+            bluepowerup.extended = false; 
         }
     }
 }

@@ -22,6 +22,8 @@ public class redpower : MonoBehaviour
         //change sprite/animation
         if (collision.gameObject.tag == "player")
         {
+            greenpower.stuck = false;
+            bluepowerup.extended = false; 
             enablefire = true;
         }
     }

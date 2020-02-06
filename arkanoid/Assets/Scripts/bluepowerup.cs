@@ -20,15 +20,21 @@ public class bluepowerup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (extended)
+        {
+            player.transform.localScale = new Vector3(2, 0.4f, 1);
+            render.size = new Vector2(3.74f, 0.4f);
+        }
+        else {
+            player.transform.localScale = new Vector3(1, 0.4f, 1);
+            render.size = new Vector2(2.44f, 0.4f); 
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "player") {
-            print("should extend"); 
-            player.transform.localScale = new Vector3(2, 0.4f, 1);
-            render.size = new Vector2(3.74f, 0.4f); 
+            extended = true; 
         }
     }
 }

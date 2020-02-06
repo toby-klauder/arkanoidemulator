@@ -32,7 +32,7 @@ public class ball : MonoBehaviour
             rb.transform.position = offset + player.transform.position; 
         }
         rb.velocity = rb.velocity.normalized * speed;
-        if ((Input.GetKey(KeyCode.X) && greenpower.stuck && touchingplayer) || time > 10)
+        if ((Input.GetKey(KeyCode.X) && greenpower.stuck && touchingplayer) || (time > 10 && greenpower.stuck && touchingplayer))
         {
             touchingplayer = false;
             movewith = false; 
