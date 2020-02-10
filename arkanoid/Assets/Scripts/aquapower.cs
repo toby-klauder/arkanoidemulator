@@ -22,6 +22,9 @@ public class aquapower : MonoBehaviour
     {
         if (collision.gameObject.tag == "player")
         {
+            redpower.enablefire = false;
+            greenpower.stuck = false;
+            bluepowerup.extended = false; 
             OriginalBall = GameObject.FindObjectOfType<ball>().gameObject;
             GameObject ballone = Instantiate(ball, OriginalBall.transform.position, Quaternion.identity);
             GameObject balltwo = Instantiate(ball, OriginalBall.transform.position, Quaternion.identity);

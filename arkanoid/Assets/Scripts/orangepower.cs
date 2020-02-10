@@ -19,7 +19,10 @@ public class orangepower : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "player") {
-            ball.speed = ball.speed / 2;
+            ball.speed = ball.speed / 1.25f;
+            redpower.enablefire = false;
+            bluepowerup.extended = false;
+            greenpower.stuck = false; 
         } 
     }
 }

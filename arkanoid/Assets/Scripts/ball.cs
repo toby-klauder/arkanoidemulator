@@ -12,11 +12,13 @@ public class ball : MonoBehaviour
     public bool touchingplayer;
     public Vector3 offset;
     public bool movewith;
-    public float time; 
-
+    public float time;
+    public AudioSource soundsource;
+    public AudioClip clip;
     // Start is called before the first frame update
     void Start()
     {
+        soundsource = GetComponent<AudioSource>(); 
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = new Vector2(0, 0);
         rand1 = Random.Range(-3, 5);
@@ -48,6 +50,9 @@ public class ball : MonoBehaviour
 
             }
         }
+        if (gamemanager.lockmovement) {
+            rb.velocity = new Vector3(0, 0, 0); 
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision) {
@@ -70,8 +75,9 @@ public class ball : MonoBehaviour
             }
             Destroy(gameObject);
         }
-        if (collision.gameObject.tag == "wall" || collision.gameObject.tag == "brick") {
-            speed += 0.1f; 
+        if (collision.gameObject.tag == "wall" || collision.gameObject.tag == "brick" || collision.gameObject.tag == "player") {
+            speed += 0.25f;
+            soundsource.PlayOneShot(clip); 
         }
     }
 

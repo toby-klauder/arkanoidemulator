@@ -4,17 +4,20 @@ using UnityEngine;
 
 public class redpower : MonoBehaviour
 {
-    public static bool enablefire = true; 
+    public GameObject player; 
+    public static bool enablefire;
+    public SpriteRenderer playerrender;
+    public Sprite laservaus; 
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerrender = player.GetComponent<SpriteRenderer>(); 
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -25,6 +28,8 @@ public class redpower : MonoBehaviour
             greenpower.stuck = false;
             bluepowerup.extended = false; 
             enablefire = true;
+            playerrender.sprite = laservaus; 
+
         }
     }
 }

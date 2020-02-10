@@ -1,0 +1,1363 @@
+fileFormatVersion: 2
+guid: 9ee3db1005573084b82136140985ddd6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8483945614554473750
+    second: green-powerup (1)_0
+  - first:
+      213: -7594996315663843211
+    second: green-powerup (1)_1
+  - first:
+      213: -7958722799555496381
+    second: green-powerup (1)_2
+  - first:
+      213: 4066883658394338978
+    second: green-powerup (1)_3
+  - first:
+      213: -3924164303673425743
+    second: green-powerup (1)_4
+  - first:
+      213: 640358818390004053
+    second: green-powerup (1)_5
+  - first:
+      213: 5789846123561783360
+    second: green-powerup (1)_6
+  - first:
+      213: -8714459395569465235
+    second: green-powerup (1)_7
+  - first:
+      213: -1135166893556604662
+    second: green-powerup (1)_8
+  - first:
+      213: 6849039610430850960
+    second: green-powerup (1)_9
+  - first:
+      213: 8713809261789386931
+    second: green-powerup (1)_10
+  - first:
+      213: -1858356358523998463
+    second: green-powerup (1)_11
+  - first:
+      213: -756127528335328586
+    second: green-powerup (1)_12
+  - first:
+      213: -7698054264622381600
+    second: green-powerup (1)_13
+  - first:
+      213: 4007712958386708025
+    second: green-powerup (1)_14
+  - first:
+      213: -1768610592206647003
+    second: green-powerup (1)_15
+  - first:
+      213: 218375112391989931
+    second: green-powerup (1)_16
+  - first:
+      213: -4351060023655529596
+    second: green-powerup (1)_17
+  - first:
+      213: -5439773352039680108
+    second: green-powerup (1)_18
+  - first:
+      213: -2855102839300814434
+    second: green-powerup (1)_19
+  - first:
+      213: -946497947836137218
+    second: green-powerup (1)_20
+  - first:
+      213: -8503780035028990073
+    second: green-powerup (1)_21
+  - first:
+      213: 7724155743345363435
+    second: green-powerup (1)_22
+  - first:
+      213: -4565953003740097741
+    second: green-powerup (1)_23
+  - first:
+      213: 4187296105943210538
+    second: green-powerup (1)_24
+  - first:
+      213: -8900095676445136547
+    second: green-powerup (1)_25
+  - first:
+      213: -5982668075766363056
+    second: green-powerup (1)_26
+  - first:
+      213: 6882117226747790303
+    second: green-powerup (1)_27
+  - first:
+      213: -1318819662723276983
+    second: green-powerup (1)_28
+  - first:
+      213: 7028575535403394029
+    second: green-powerup (1)_29
+  - first:
+      213: -6607906382475834050
+    second: green-powerup (1)_30
+  - first:
+      213: 4884387904287823020
+    second: green-powerup (1)_31
+  - first:
+      213: -6078611753286135492
+    second: green-powerup (1)_32
+  - first:
+      213: 6766377583835149075
+    second: green-powerup (1)_33
+  - first:
+      213: -3753412437986414251
+    second: green-powerup (1)_34
+  - first:
+      213: -2379359593996091584
+    second: green-powerup (1)_35
+  - first:
+      213: 7003655860902095695
+    second: green-powerup (1)_36
+  - first:
+      213: 1249157237145552977
+    second: green-powerup (1)_37
+  - first:
+      213: -3710475641035560043
+    second: green-powerup (1)_38
+  - first:
+      213: -323880352936847199
+    second: green-powerup (1)_39
+  - first:
+      213: -5027972758549223219
+    second: green-powerup (1)_40
+  - first:
+      213: 8747864573334811450
+    second: green-powerup (1)_41
+  - first:
+      213: -9167568527771000169
+    second: green-powerup (1)_42
+  - first:
+      213: -6847085984583228430
+    second: green-powerup (1)_43
+  - first:
+      213: -6318527138848518374
+    second: green-powerup (1)_44
+  - first:
+      213: 6588596270533684182
+    second: green-powerup (1)_45
+  - first:
+      213: -5223015438843931229
+    second: green-powerup (1)_46
+  - first:
+      213: -7106525227258065623
+    second: green-powerup (1)_47
+  - first:
+      213: -4196142281124627506
+    second: green-powerup (1)_48
+  - first:
+      213: -622181609384083890
+    second: green-powerup (1)_49
+  - first:
+      213: 9012599920905399963
+    second: green-powerup (1)_50
+  - first:
+      213: 8937107560471642624
+    second: green-powerup (1)_51
+  - first:
+      213: 8438898897740147419
+    second: green-powerup (1)_52
+  - first:
+      213: 6772767244547744717
+    second: green-powerup (1)_53
+  - first:
+      213: -8811719543382271539
+    second: green-powerup (1)_54
+  - first:
+      213: -1293908118811926911
+    second: green-powerup (1)_55
+  - first:
+      213: 6498988288106696335
+    second: green-powerup (1)_56
+  - first:
+      213: 7041326870041573943
+    second: green-powerup (1)_57
+  - first:
+      213: -5596647991416723240
+    second: green-powerup (1)_58
+  - first:
+      213: 2957844238499517705
+    second: green-powerup (1)_59
+  - first:
+      213: -8253817681801639831
+    second: green-powerup (1)_60
+  - first:
+      213: 966855340561507497
+    second: green-powerup (1)_61
+  - first:
+      213: -7994290981626548328
+    second: green-powerup (1)_62
+  - first:
+      213: -1775739144521165797
+    second: green-powerup (1)_63
+  - first:
+      213: 1927973271753357527
+    second: green-powerup (1)_64
+  - first:
+      213: -6047723267942502911
+    second: green-powerup (1)_65
+  - first:
+      213: -5717224531164085267
+    second: green-powerup (1)_66
+  - first:
+      213: 6651926913805809672
+    second: green-powerup (1)_67
+  - first:
+      213: 7317388044082835584
+    second: green-powerup (1)_68
+  - first:
+      213: -4198588724278634053
+    second: green-powerup (1)_69
+  - first:
+      213: -3821886832711633334
+    second: green-powerup (1)_70
+  - first:
+      213: -5451439416683632988
+    second: green-powerup (1)_71
+  - first:
+      213: -1942711522191047398
+    second: green-powerup (1)_72
+  - first:
+      213: -8042051639565015845
+    second: green-powerup (1)_73
+  - first:
+      213: 1303687990403318035
+    second: green-powerup (1)_74
+  - first:
+      213: -7571145936589945906
+    second: green-powerup (1)_75
+  - first:
+      213: -8678368084502564995
+    second: green-powerup (1)_76
+  - first:
+      213: 6552297864724744967
+    second: green-powerup (1)_77
+  - first:
+      213: 900772804048869047
+    second: green-powerup (1)_78
+  - first:
+      213: 5652110909223589960
+    second: green-powerup (1)_79
+  - first:
+      213: -7111124457133515141
+    second: green-powerup (1)_80
+  - first:
+      213: 313192243273059327
+    second: green-powerup (1)_81
+  - first:
+      213: -208028348214538044
+    second: green-powerup (1)_82
+  - first:
+      213: -6351982062394587858
+    second: green-powerup (1)_83
+  - first:
+      213: 6203007980720584416
+    second: green-powerup (1)_84
+  - first:
+      213: -4042104790359888800
+    second: green-powerup (1)_85
+  - first:
+      213: -3635468482185545795
+    second: green-powerup (1)_86
+  - first:
+      213: -6495692818855514718
+    second: green-powerup (1)_87
+  - first:
+      213: -7814665935509505363
+    second: green-powerup (1)_88
+  - first:
+      213: 4979014271399511240
+    second: green-powerup (1)_89
+  - first:
+      213: 7249895451643211639
+    second: green-powerup (1)_90
+  - first:
+      213: -2480674276727902559
+    second: green-powerup (1)_91
+  - first:
+      213: -4059450601921366055
+    second: green-powerup (1)_92
+  - first:
+      213: 7391732543787243080
+    second: green-powerup (1)_93
+  - first:
+      213: -1041831792656545711
+    second: green-powerup (1)_94
+  - first:
+      213: -3630342070883381373
+    second: green-powerup (1)_95
+  - first:
+      213: -2058230770074745257
+    second: green-powerup (1)_96
+  - first:
+      213: 4396926746492457948
+    second: green-powerup (1)_97
+  - first:
+      213: 2966529016478126724
+    second: green-powerup (1)_98
+  - first:
+      213: 1896426275981970101
+    second: green-powerup (1)_99
+  - first:
+      213: -8792960141514029800
+    second: green-powerup (1)_100
+  - first:
+      213: -4719579788149217164
+    second: green-powerup (1)_101
+  - first:
+      213: -7067405734153574617
+    second: green-powerup (1)_102
+  - first:
+      213: 8900461409747831724
+    second: green-powerup (1)_103
+  - first:
+      213: 4206820450178243568
+    second: green-powerup (1)_104
+  - first:
+      213: 2314397657828990797
+    second: green-powerup (1)_105
+  - first:
+      213: -7699058843729340013
+    second: green-powerup (1)_106
+  - first:
+      213: -3339523649749308464
+    second: green-powerup (1)_107
+  - first:
+      213: -3567564235793718045
+    second: green-powerup (1)_108
+  - first:
+      213: 7217273078488977532
+    second: green-powerup (1)_109
+  - first:
+      213: -6547158646437440423
+    second: green-powerup (1)_110
+  - first:
+      213: 2456948594304346191
+    second: green-powerup (1)_111
+  - first:
+      213: -1883168924617076328
+    second: green-powerup (1)_112
+  - first:
+      213: -2138751033369694639
+    second: green-powerup (1)_113
+  - first:
+      213: 9161293158255105240
+    second: green-powerup (1)_114
+  - first:
+      213: 5665209974825304492
+    second: green-powerup (1)_115
+  - first:
+      213: 6770099048875191813
+    second: green-powerup (1)_116
+  - first:
+      213: 3493224319010951394
+    second: green-powerup (1)_117
+  - first:
+      213: 727945487638955999
+    second: green-powerup (1)_118
+  - first:
+      213: 5239294733090336495
+    second: green-powerup (1)_119
+  - first:
+      213: -4808793577966593972
+    second: green-powerup (1)_120
+  - first:
+      213: 1911332482532841606
+    second: green-powerup (1)_121
+  - first:
+      213: -1324275889149971000
+    second: green-powerup (1)_122
+  - first:
+      213: -27800158938765858
+    second: green-powerup (1)_123
+  - first:
+      213: -5850989240097650579
+    second: green-powerup (1)_124
+  - first:
+      213: -2113242091599111899
+    second: green-powerup (1)_125
+  - first:
+      213: 4273130658271715984
+    second: green-powerup (1)_126
+  - first:
+      213: -1812732695756452379
+    second: green-powerup (1)_127
+  - first:
+      213: 4903030153736187194
+    second: green-powerup (1)_128
+  - first:
+      213: -8694897710407913959
+    second: green-powerup (1)_129
+  - first:
+      213: -2258031107891966445
+    second: green-powerup (1)_130
+  - first:
+      213: -272625904658856132
+    second: green-powerup (1)_131
+  - first:
+      213: -5460516918349489397
+    second: green-powerup (1)_132
+  - first:
+      213: -2803917106927765325
+    second: green-powerup (1)_133
+  - first:
+      213: 4755112952030481098
+    second: green-powerup (1)_134
+  - first:
+      213: 6001188866284377556
+    second: green-powerup (1)_135
+  - first:
+      213: -2535237690656481254
+    second: green-powerup (1)_136
+  - first:
+      213: 8220656330555995665
+    second: green-powerup (1)_137
+  - first:
+      213: 6929256193026204393
+    second: green-powerup (1)_138
+  - first:
+      213: 9206657891535714353
+    second: green-powerup (1)_139
+  - first:
+      213: -8592083199983788951
+    second: green-powerup (1)_140
+  - first:
+      213: -5494605982571312365
+    second: green-powerup (1)_141
+  - first:
+      213: -4363670267547922285
+    second: green-powerup (1)_142
+  - first:
+      213: -588183125340768761
+    second: green-powerup (1)_143
+  - first:
+      213: 6320281335360974219
+    second: green-powerup (1)_144
+  - first:
+      213: -8105609578905072226
+    second: green-powerup (1)_145
+  - first:
+      213: -3246970993192846667
+    second: green-powerup (1)_146
+  - first:
+      213: 2542877133939352955
+    second: green-powerup (1)_147
+  - first:
+      213: -64606139205700231
+    second: green-powerup (1)_148
+  - first:
+      213: -7128789861973893720
+    second: green-powerup (1)_149
+  - first:
+      213: -7131317023251137355
+    second: green-powerup (1)_150
+  - first:
+      213: -4742293142706681453
+    second: green-powerup (1)_151
+  - first:
+      213: -9076077536388181065
+    second: green-powerup (1)_152
+  - first:
+      213: -7429735505351499386
+    second: green-powerup (1)_153
+  - first:
+      213: -1020142183361426134
+    second: green-powerup (1)_154
+  - first:
+      213: 4433720511443539527
+    second: green-powerup (1)_155
+  - first:
+      213: 6554363394455509083
+    second: green-powerup (1)_156
+  - first:
+      213: -8553721010322285185
+    second: green-powerup (1)_157
+  - first:
+      213: 2276491607775864799
+    second: green-powerup (1)_158
+  - first:
+      213: 5238004369202406139
+    second: green-powerup (1)_159
+  - first:
+      213: -4440437960113868990
+    second: green-powerup (1)_160
+  - first:
+      213: -357513571570911127
+    second: green-powerup (1)_161
+  - first:
+      213: -2988153388225747189
+    second: green-powerup (1)_162
+  - first:
+      213: -3665590974983140226
+    second: green-powerup (1)_163
+  - first:
+      213: -4781794970796654390
+    second: green-powerup (1)_164
+  - first:
+      213: -4771424990850064508
+    second: green-powerup (1)_165
+  - first:
+      213: -1643072712683825266
+    second: green-powerup (1)_166
+  - first:
+      213: -4692965620052525715
+    second: green-powerup (1)_167
+  - first:
+      213: -9038695239883916547
+    second: green-powerup (1)_168
+  - first:
+      213: 7807763796893028642
+    second: green-powerup (1)_169
+  - first:
+      213: -2541441333532743843
+    second: green-powerup (1)_170
+  - first:
+      213: 7899894798422188268
+    second: green-powerup (1)_171
+  - first:
+      213: 7287814552659851715
+    second: green-powerup (1)_172
+  - first:
+      213: 8979942443462319124
+    second: green-powerup (1)_173
+  - first:
+      213: 8795323979370228969
+    second: green-powerup (1)_174
+  - first:
+      213: -5662280449948504697
+    second: green-powerup (1)_175
+  - first:
+      213: 4939294956370304602
+    second: green-powerup (1)_176
+  - first:
+      213: 6164242848390255415
+    second: green-powerup (1)_177
+  - first:
+      213: -8545077955398727818
+    second: green-powerup (1)_178
+  - first:
+      213: -8886412479261147344
+    second: green-powerup (1)_179
+  - first:
+      213: 3760409536710097572
+    second: green-powerup (1)_180
+  - first:
+      213: -6453925598420360982
+    second: green-powerup (1)_181
+  - first:
+      213: -3525613309993262197
+    second: green-powerup (1)_182
+  - first:
+      213: -6145760938552276977
+    second: green-powerup (1)_183
+  - first:
+      213: 79776689907407913
+    second: green-powerup (1)_184
+  - first:
+      213: -4940967924947579949
+    second: green-powerup (1)_185
+  - first:
+      213: 5618720000394469967
+    second: green-powerup (1)_186
+  - first:
+      213: 1509410413235495842
+    second: green-powerup (1)_187
+  - first:
+      213: 3019732013342949569
+    second: green-powerup (1)_188
+  - first:
+      213: 5003352117759478973
+    second: green-powerup (1)_189
+  - first:
+      213: 2971712212722681657
+    second: green-powerup (1)_190
+  - first:
+      213: 5433976357145775062
+    second: green-powerup (1)_191
+  - first:
+      213: -6441657716658386113
+    second: green-powerup (1)_192
+  - first:
+      213: 1848629036178345021
+    second: green-powerup (1)_193
+  - first:
+      213: 8485333961625404945
+    second: green-powerup (1)_194
+  - first:
+      213: 6545043604617674345
+    second: green-powerup (1)_195
+  - first:
+      213: 1248952450677846626
+    second: green-powerup (1)_196
+  - first:
+      213: -3834317805036533774
+    second: green-powerup (1)_197
+  - first:
+      213: -5101234657626250375
+    second: green-powerup (1)_198
+  - first:
+      213: 6529036671605401993
+    second: green-powerup (1)_199
+  - first:
+      213: 1338046744325846934
+    second: green-powerup (1)_200
+  - first:
+      213: 2206127473646992588
+    second: green-powerup (1)_201
+  - first:
+      213: -7189761826465799505
+    second: green-powerup (1)_202
+  - first:
+      213: 2393964400760948945
+    second: green-powerup (1)_203
+  - first:
+      213: 880925605075546929
+    second: green-powerup (1)_204
+  - first:
+      213: 5196815059843313806
+    second: green-powerup (1)_205
+  - first:
+      213: -5748683410765677037
+    second: green-powerup (1)_206
+  - first:
+      213: -7784285591701390673
+    second: green-powerup (1)_207
+  - first:
+      213: -2149595516211479381
+    second: green-powerup (1)_208
+  - first:
+      213: 5488548794122120000
+    second: green-powerup (1)_209
+  - first:
+      213: 3816871035238331633
+    second: green-powerup (1)_210
+  - first:
+      213: 5135637250694279210
+    second: green-powerup (1)_211
+  - first:
+      213: 8414561257470580444
+    second: green-powerup (1)_212
+  - first:
+      213: -8958939797456197947
+    second: green-powerup (1)_213
+  - first:
+      213: 4108527494167181654
+    second: green-powerup (1)_214
+  - first:
+      213: 1371766720493183769
+    second: green-powerup (1)_215
+  - first:
+      213: 42839578984550566
+    second: green-powerup (1)_216
+  - first:
+      213: -7336382962188747128
+    second: green-powerup (1)_217
+  - first:
+      213: 8142655261940645198
+    second: green-powerup (1)_218
+  - first:
+      213: 7256104720051925554
+    second: green-powerup (1)_219
+  - first:
+      213: -6197961145677919197
+    second: green-powerup (1)_220
+  - first:
+      213: -926922369088811057
+    second: green-powerup (1)_221
+  - first:
+      213: -3795339100088172400
+    second: green-powerup (1)_222
+  - first:
+      213: 4679807002200768823
+    second: green-powerup (1)_223
+  - first:
+      213: -529335669202253420
+    second: green-powerup (1)_224
+  - first:
+      213: 6071589947515862818
+    second: green-powerup (1)_225
+  - first:
+      213: 5897628742754930019
+    second: green-powerup (1)_226
+  - first:
+      213: -1913838827524072880
+    second: green-powerup (1)_227
+  - first:
+      213: 1808508244767240020
+    second: green-powerup (1)_228
+  - first:
+      213: 9013297838977096794
+    second: green-powerup (1)_229
+  - first:
+      213: -1879659729687449760
+    second: green-powerup (1)_230
+  - first:
+      213: -7551905118213167334
+    second: green-powerup (1)_231
+  - first:
+      213: 5733480278884051868
+    second: green-powerup (1)_232
+  - first:
+      213: -6117807338765797253
+    second: green-powerup (1)_233
+  - first:
+      213: -2204291005537606354
+    second: green-powerup (1)_234
+  - first:
+      213: 6734302108804855953
+    second: green-powerup (1)_235
+  - first:
+      213: -2117259174133545726
+    second: green-powerup (1)_236
+  - first:
+      213: 6898585059447349524
+    second: green-powerup (1)_237
+  - first:
+      213: -4846194249858143734
+    second: green-powerup (1)_238
+  - first:
+      213: -7704571165020181591
+    second: green-powerup (1)_239
+  - first:
+      213: 2715855547030731148
+    second: green-powerup (1)_240
+  - first:
+      213: 3117305023516418567
+    second: green-powerup (1)_241
+  - first:
+      213: 9170519132009083746
+    second: green-powerup (1)_242
+  - first:
+      213: 3296573960942350490
+    second: green-powerup (1)_243
+  - first:
+      213: -4172943132808212740
+    second: green-powerup (1)_244
+  - first:
+      213: 875958638440139994
+    second: green-powerup (1)_245
+  - first:
+      213: -7412309988323357482
+    second: green-powerup (1)_246
+  - first:
+      213: 8787362817377020698
+    second: green-powerup (1)_247
+  - first:
+      213: -8236945060778196728
+    second: green-powerup (1)_248
+  - first:
+      213: 365231998894989255
+    second: green-powerup (1)_249
+  - first:
+      213: -1431307564520750234
+    second: green-powerup (1)_250
+  - first:
+      213: -6741903204661363589
+    second: green-powerup (1)_251
+  - first:
+      213: -7831368728083599837
+    second: green-powerup (1)_252
+  - first:
+      213: 440873603644740315
+    second: green-powerup (1)_253
+  - first:
+      213: -5999830409316839082
+    second: green-powerup (1)_254
+  - first:
+      213: 1274153191223900256
+    second: green-powerup (1)_255
+  - first:
+      213: 5651022288393039586
+    second: green-powerup (1)_256
+  - first:
+      213: 7092622721568482294
+    second: green-powerup (1)_257
+  - first:
+      213: -6583339322812396478
+    second: green-powerup (1)_258
+  - first:
+      213: 3410641531583937251
+    second: green-powerup (1)_259
+  - first:
+      213: -6028789376648810777
+    second: green-powerup (1)_260
+  - first:
+      213: 724240773477666341
+    second: green-powerup (1)_261
+  - first:
+      213: 4689705097459322584
+    second: green-powerup (1)_262
+  - first:
+      213: -9093129604091579074
+    second: green-powerup (1)_263
+  - first:
+      213: 738355138650146574
+    second: green-powerup (1)_264
+  - first:
+      213: 4537062459768974462
+    second: green-powerup (1)_265
+  - first:
+      213: 7822067462488182590
+    second: green-powerup (1)_266
+  - first:
+      213: 8061154138949387879
+    second: green-powerup (1)_267
+  - first:
+      213: -6862292910838653000
+    second: green-powerup (1)_268
+  - first:
+      213: 4518164725388348987
+    second: green-powerup (1)_269
+  - first:
+      213: -5830443222016866734
+    second: green-powerup (1)_270
+  - first:
+      213: 5517472339283259761
+    second: green-powerup (1)_271
+  - first:
+      213: 5770091187172236773
+    second: green-powerup (1)_272
+  - first:
+      213: -7085766761145157237
+    second: green-powerup (1)_273
+  - first:
+      213: -7382970960917372782
+    second: green-powerup (1)_274
+  - first:
+      213: 8501666843890607306
+    second: green-powerup (1)_275
+  - first:
+      213: 1035443399730159993
+    second: green-powerup (1)_276
+  - first:
+      213: -1436027742395503437
+    second: green-powerup (1)_277
+  - first:
+      213: -8088789132401302973
+    second: green-powerup (1)_278
+  - first:
+      213: -4097138575742547582
+    second: green-powerup (1)_279
+  - first:
+      213: -6672130077557212400
+    second: green-powerup (1)_280
+  - first:
+      213: -2298460197996385864
+    second: green-powerup (1)_281
+  - first:
+      213: -7757259016517795635
+    second: green-powerup (1)_282
+  - first:
+      213: -3377367070927935208
+    second: green-powerup (1)_283
+  - first:
+      213: -5273497220791588828
+    second: green-powerup (1)_284
+  - first:
+      213: -4533688956952742489
+    second: green-powerup (1)_285
+  - first:
+      213: 7330384169954491234
+    second: green-powerup (1)_286
+  - first:
+      213: 8160015382010050827
+    second: green-powerup (1)_287
+  - first:
+      213: 7113102277613413463
+    second: green-powerup (1)_288
+  - first:
+      213: -5118325348015866787
+    second: green-powerup (1)_289
+  - first:
+      213: 1077749742820779108
+    second: green-powerup (1)_290
+  - first:
+      213: 5380119447968787729
+    second: green-powerup (1)_291
+  - first:
+      213: -156876154761835659
+    second: green-powerup (1)_292
+  - first:
+      213: -4144894452791237257
+    second: green-powerup (1)_293
+  - first:
+      213: -1086686925004415884
+    second: green-powerup (1)_294
+  - first:
+      213: -7171277190887532955
+    second: green-powerup (1)_295
+  - first:
+      213: -169014314232536601
+    second: green-powerup (1)_296
+  - first:
+      213: 2300956199364506854
+    second: green-powerup (1)_297
+  - first:
+      213: -6452319685998880097
+    second: green-powerup (1)_298
+  - first:
+      213: 2089263351984653825
+    second: green-powerup (1)_299
+  - first:
+      213: 1090779468225564957
+    second: green-powerup (1)_300
+  - first:
+      213: -3262695575211935065
+    second: green-powerup (1)_301
+  - first:
+      213: 8051237665773453294
+    second: green-powerup (1)_302
+  - first:
+      213: 6056755800520957214
+    second: green-powerup (1)_303
+  - first:
+      213: 7803501114769855554
+    second: green-powerup (1)_304
+  - first:
+      213: 6745057569074262377
+    second: green-powerup (1)_305
+  - first:
+      213: -4030903372547614042
+    second: green-powerup (1)_306
+  - first:
+      213: 1462401861282572483
+    second: green-powerup (1)_307
+  - first:
+      213: -7201892052725797635
+    second: green-powerup (1)_308
+  - first:
+      213: -2138839209508615343
+    second: green-powerup (1)_309
+  - first:
+      213: -9128967301123361498
+    second: green-powerup (1)_310
+  - first:
+      213: -2542443051942006212
+    second: green-powerup (1)_311
+  - first:
+      213: -7381030975976082610
+    second: green-powerup (1)_312
+  - first:
+      213: 7202296186702431581
+    second: green-powerup (1)_313
+  - first:
+      213: -6342162940433017372
+    second: green-powerup (1)_314
+  - first:
+      213: 3127491052348342516
+    second: green-powerup (1)_315
+  - first:
+      213: 4486360246330618058
+    second: green-powerup (1)_316
+  - first:
+      213: -2816292595499518028
+    second: green-powerup (1)_317
+  - first:
+      213: 4652684841726235550
+    second: green-powerup (1)_318
+  - first:
+      213: 2887281854079051238
+    second: green-powerup (1)_319
+  - first:
+      213: -2243938850114569022
+    second: green-powerup (1)_320
+  - first:
+      213: 2591616610625265552
+    second: green-powerup (1)_321
+  - first:
+      213: 5875526138290362012
+    second: green-powerup (1)_322
+  - first:
+      213: 2676337055088473577
+    second: green-powerup (1)_323
+  - first:
+      213: 7752374826688076807
+    second: green-powerup (1)_324
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 155
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: green-powerup (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 190
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea5fb6d968f24a80800000000000000
+      internalID: -8483945614554473750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-powerup (1)_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 540
+        width: 190
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570c4764717299690800000000000000
+      internalID: -7594996315663843211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-powerup (1)_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 190
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34631bae7cfec8190800000000000000
+      internalID: -7958722799555496381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-powerup (1)_3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 450
+        width: 190
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a68f69d329707830800000000000000
+      internalID: 4066883658394338978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-powerup (1)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 190
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0074f5b519a89c0800000000000000
+      internalID: -3924164303673425743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-powerup (1)_5
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 360
+        width: 190
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551dcead3f203e800800000000000000
+      internalID: 640358818390004053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-powerup (1)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 190
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040921b9f5aa95050800000000000000
+      internalID: 5789846123561783360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-powerup (1)_7
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 270
+        width: 190
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d684485d955001780800000000000000
+      internalID: -8714459395569465235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-powerup (1)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 190
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0166c489b31f30f0800000000000000
+      internalID: -1135166893556604662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-powerup (1)_9
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 180
+        width: 190
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0978f48ec3dac0f50800000000000000
+      internalID: 6849039610430850960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-powerup (1)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 190
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b817791b5bade870800000000000000
+      internalID: 8713809261789386931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-powerup (1)_11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 90
+        width: 190
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fa618ecbac536e0800000000000000
+      internalID: -1858356358523998463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-powerup (1)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 190
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6babda4e402b185f0800000000000000
+      internalID: -756127528335328586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

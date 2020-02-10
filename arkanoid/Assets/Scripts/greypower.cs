@@ -20,6 +20,9 @@ public class greypower : MonoBehaviour
     {
         if (collision.gameObject.tag == "player") {
             gamemanager.lives = gamemanager.lives + 1;
+            redpower.enablefire = false;
+            greenpower.stuck = false;
+            bluepowerup.extended = false; 
         }
     }
 }

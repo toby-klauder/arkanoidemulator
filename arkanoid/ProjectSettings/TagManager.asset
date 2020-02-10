@@ -16,6 +16,7 @@ TagManager:
   - greenpower
   - destroyobj
   - bullet
+  - brick
   layers:
   - Default
   - TransparentFX

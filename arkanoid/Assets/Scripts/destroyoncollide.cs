@@ -22,7 +22,8 @@ public class destroyoncollide : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        powerupsenabled = true; 
+        powerupsenabled = true;
+        
     }
 
     // Update is called once per frame
@@ -38,7 +39,7 @@ public class destroyoncollide : MonoBehaviour
         if (balls.Length == 1) {
             powerupsenabled = true; 
         }
-        poweruptospawn = Random.Range(1, 7);
+        poweruptospawn = Random.Range(1,7);
         powerupchance = 1;  
 
     }
@@ -79,6 +80,7 @@ public class destroyoncollide : MonoBehaviour
                 else if (poweruptospawn == 7)
                 {
                     Instantiate(greenpowerpellet, thisbrick.transform.position, transform.rotation);
+                    
                 }
                 
             }

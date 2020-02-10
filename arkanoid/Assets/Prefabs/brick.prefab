@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8047781003962633594}
   m_Layer: 9
   m_Name: brick
-  m_TagString: Untagged
+  m_TagString: brick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134,9 +134,11 @@ MonoBehaviour:
     type: 3}
   redpower: {fileID: 6442013748476831473, guid: 7a031925965e9174fa6f8ae059235957,
     type: 3}
-  greenpower: {fileID: 4461283380856731473, guid: 6aa7599b25d15c04989b4d53035a7ba2,
+  greenpowerpellet: {fileID: 4461283380856731473, guid: 6aa7599b25d15c04989b4d53035a7ba2,
     type: 3}
   thisbrick: {fileID: 8047781003962633598}
+  balls: []
   poweruptospawn: 0
   powerupchance: 0
   points: 20
+  powerupsenabled: 0

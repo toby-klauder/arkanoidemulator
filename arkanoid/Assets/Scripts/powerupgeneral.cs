@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class powerupgeneral : MonoBehaviour
 {
+    public AudioSource source; 
+    public AudioClip clip; 
     // Start is called before the first frame update
     void Start()
     {
-        
+        source = GetComponent<AudioSource>(); 
     }
 
     // Update is called once per frame
@@ -20,6 +22,8 @@ public class powerupgeneral : MonoBehaviour
     {
         if (collision.gameObject.tag == "player") {
             gamemanager.totalpoints += 1000;
+            source.PlayOneShot(clip);
+            print("play clip");
             Destroy(gameObject); 
         }
 
