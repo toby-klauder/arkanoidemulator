@@ -40,7 +40,7 @@ public class destroyoncollide : MonoBehaviour
             powerupsenabled = true; 
         }
         poweruptospawn = Random.Range(1,7);
-        powerupchance = 1;  
+        powerupchance = Random.Range(1,7);  
 
     }
 
@@ -71,7 +71,7 @@ public class destroyoncollide : MonoBehaviour
                 }
                 else if (poweruptospawn == 5)
                 {
-                   // Instantiate(pinkpower, thisbrick.transform.position, transform.rotation);
+                    Instantiate(greenpowerpellet, thisbrick.transform.position, transform.rotation);
                 }
                 else if (poweruptospawn == 6)
                 {
@@ -79,7 +79,7 @@ public class destroyoncollide : MonoBehaviour
                 }
                 else if (poweruptospawn == 7)
                 {
-                    Instantiate(greenpowerpellet, thisbrick.transform.position, transform.rotation);
+                    //Instantiate(pinkpower, thisbrick.transform.position, transform.rotation);
                     
                 }
                 

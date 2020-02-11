@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ball : MonoBehaviour
 {
-    public GameObject player; 
+    public GameObject player;
+    public static float ballstartspeed = 5f; 
     public static float speed = 5f; 
     public Rigidbody2D rb;
     int rand1;
@@ -15,6 +16,7 @@ public class ball : MonoBehaviour
     public float time;
     public AudioSource soundsource;
     public AudioClip clip;
+    public Vector3 position; 
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +26,10 @@ public class ball : MonoBehaviour
         rand1 = Random.Range(-3, 5);
         rand2 = Random.Range(1, 5);
         rb.velocity = new Vector2(rand1, rand2).normalized * speed;
+        position = new Vector3(0, -6.48f, 0);
+
+        player = GameObject.FindGameObjectWithTag("player");
+
     }
 
     // Update is called once per frame
@@ -31,7 +37,8 @@ public class ball : MonoBehaviour
     {
         time += Time.deltaTime;
         if (movewith) {
-            rb.transform.position = offset + player.transform.position; 
+            transform.position = offset + player.transform.position;
+            print("Moving with player");
         }
         rb.velocity = rb.velocity.normalized * speed;
         if ((Input.GetKey(KeyCode.X) && greenpower.stuck && touchingplayer) || (time > 10 && greenpower.stuck && touchingplayer))
@@ -57,6 +64,7 @@ public class ball : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision) {
         if (collision.gameObject.tag == "player") {
+            print("shell test" + greenpower.stuck.ToString()); 
             touchingplayer = true;
             if(greenpower.stuck)
             {
@@ -68,11 +76,6 @@ public class ball : MonoBehaviour
             }
         }
         if (collision.gameObject.tag == "destroyobj") {
-            GameObject[] balls = GameObject.FindGameObjectsWithTag("ball");
-            if (balls.Length == 1)
-            {
-                gamemanager.lives--;
-            }
             Destroy(gameObject);
         }
         if (collision.gameObject.tag == "wall" || collision.gameObject.tag == "brick" || collision.gameObject.tag == "player") {

@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6363838017338691201}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2, y: 5.56, z: -2.5761719}
+  m_LocalPosition: {x: 0.2, y: 5.56, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -73,8 +73,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4ecad6e61bbc6704193c86888f5a042d, type: 3}
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 21300000, guid: 35f288828d58dc043835d8971d121479, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -134,14 +134,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81f7e405b5e76d54490769d604f200bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 6628684343681499846, guid: 0a1c4a80b4ea49e4eaa0cb7abc4d7552, type: 3}
   rb: {fileID: 6363838017338691207}
   touchingplayer: 0
   offset: {x: 0, y: 0, z: 0}
   movewith: 0
   time: 0
-  audio: {fileID: 7622403381179853871}
+  soundsource: {fileID: 0}
   clip: {fileID: 8300000, guid: f3874dfc8a0c1ac4bb30e0dffba529d2, type: 3}
+  position: {x: 0, y: 0, z: 0}
 --- !u!82 &7622403381179853871
 AudioSource:
   m_ObjectHideFlags: 0

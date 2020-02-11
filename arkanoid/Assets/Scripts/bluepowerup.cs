@@ -20,8 +20,11 @@ public class bluepowerup : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        extended |= collision.gameObject.tag == "player";
-        redpower.enablefire = false;
-        greenpower.stuck = false; 
+        if (collision.gameObject.tag == "player")
+        {
+            extended = true; 
+            redpower.enablefire = false;
+            greenpower.stuck = false;
+        }
     }
 }
